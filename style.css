@@ -30,6 +30,7 @@ header {
 nav {
     display: flex;
     align-items: center;
+    height: 100%;
     width: 70%;
     justify-content: end;
 }
@@ -37,23 +38,24 @@ nav {
 ul {
     display: flex;
     list-style: none;
+    height: 100%;
     width: 70%;
     justify-content: space-around;
     align-items: center;
 }
 
 li{
+    height: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 40%;
-    height: 100px;
+    border: solid;
     font-size: 0px;
     background-image: url(imagens/scroll-closed.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
-    background-size: 40px;
+    background-size:contain;
     transition: 0.1s;
 }
 
